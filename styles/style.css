@@ -388,9 +388,19 @@ svg {
   justify-content: space-between;
   margin: 1rem;
 }
-.info__repo {
+.info__options {
   display: flex;
   justify-content: end;
+  column-gap: 0.875rem;
+}
+.info__options a img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.275s linear;
+}
+.info__options a:hover img {
+  transform: scale(1.2);
 }
 .item__img {
   margin: 1rem;
